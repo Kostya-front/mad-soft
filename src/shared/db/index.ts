@@ -2,36 +2,28 @@ export const testDb = [
   {
     id:1,
     typeAnswer: 'single',
-    question: 'Как звали одного из главных героев фильма "Карты, деньги, два стола"?',
-    variants: ['Мыло','Гель для душа','Зубочистка', 'Промокашка'],
+    question: 'Какая градация наиболее популярна в сфере разработки?',
+    variants: ['Junior, Middle, Senior','Kid, Middle, Senior','Junior, Middle, Mister', 'Салага, Средняк, Красавец'],
     userAnswer: [],
-    rightAnswer: ['Мыло']
+    rightAnswer: ['Junior, Middle, Senior']
   },
   {
-    id: 2,
-    typeAnswer: 'single',
-    question: 'Какое блюдо стало фаворитом в Чинге по твоему мнению?',
-    variants: ['Свиная херня','Нищий капустный лист','Говядина из мрамора времён Ботичелли', 'Креон'],
+    id:2,
+    typeAnswer: 'multi',
+    question: 'Наиболее популярные фреймворки для javascript?',
+    variants: ['React','Vue','Angular', 'Svelte', 'Spring'],
     userAnswer: [],
-    rightAnswer: ['Говядина из мрамора времён Ботичелли']
+    rightAnswer: ['React', 'Vue','Angular', 'Svelte']
   },
   {
     id:3,
-    typeAnswer: 'multi',
-    question: 'Какие корейские харчевни мы вчера посетили',
-    variants: ['Чинга','Чика-Чика','Еда из псов Псая', 'Открой ротик и приедет поезд в Пузан'],
+    typeAnswer: 'short',
+    question: 'Назовите SSR-фреймворк для VueJs?',
     userAnswer: [],
-    rightAnswer: ['Чинга', 'Чика-Чика']
+    rightAnswer: ['nuxtjs']
   },
   {
     id:4,
-    typeAnswer: 'short',
-    question: 'Назови фамилию вчерашнего официанта в Чике-Чике',
-    userAnswer: [],
-    rightAnswer: ['ли']
-  },
-  {
-    id:5,
     typeAnswer: 'full',
     question: 'Мы живем в сумеречном мире и...',
     userAnswer: [],

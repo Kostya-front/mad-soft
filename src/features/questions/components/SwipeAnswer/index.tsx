@@ -7,5 +7,5 @@ export default function SwipeAnswer() {
   const questionIndex = questionStore(state => state.questionIndex)
 
   const isDisabled = questions[questionIndex].userAnswer.length
-  return <button className='btn btn-primary' disabled={!isDisabled} onClick={onClick}>{JSON.stringify(questions[questionIndex])}</button>
+  return <button className='btn btn-primary' disabled={!isDisabled} onClick={onClick}>Ответить</button>
 }

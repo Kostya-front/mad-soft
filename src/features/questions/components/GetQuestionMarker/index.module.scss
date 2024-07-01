@@ -1,0 +1,7 @@
+.marks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 13vw);
+  width: 100%;
+  gap: 10px;
+  justify-content: center;
+}
